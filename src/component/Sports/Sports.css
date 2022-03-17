@@ -1,0 +1,15 @@
+.sports{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+}
+
+@media screen and (max-width:520px) {
+    .sports{
+        width: 95%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
